@@ -10,5 +10,9 @@ public class TextBlocks {
                     This text block is like Python's text string creator""";
 
         System.out.println(textBlock);
+
+        int age = 34;
+        String name = "Adriano";
+        System.out.printf("Your age is %d, %s!\n", age, name);
     }
 }
