@@ -14,5 +14,9 @@ public class TextBlocks {
         int age = 34;
         String name = "Adriano";
         System.out.printf("Your age is %d, %s!\n", age, name);
+
+        for (int i = 1; i < 100001; i *= 10) {
+            System.out.printf("%6d %n", i);
+        }
     }
 }
